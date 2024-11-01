@@ -1,0 +1,20 @@
+{
+  "required": false,
+  "package": "com.cursery.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "cursery.refmap.json",
+  "mixins": [
+    "AbstractRepairContainerMixin",
+    "AttributeModifierManagerMixin",
+    "EnchantmentHelperMixin",
+    "ItemStackMixin",
+    "QuarkEnchanterCompat",
+    "QuarkEnchanterTECompat"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}
